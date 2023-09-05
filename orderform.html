@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./babbuicon.png" />
+    <link rel="stylesheet" href="./orderok.css">
+    <title>Babbu Hotel Order</title>
+</head>
+</head>
+
+<body>
+    <header>
+        <h1>Enter Your Details</h1>
+    </header>
+    <div>
+        <main>
+            <form action="backend.php">
+            <section>
+                <div class="itemname">
+
+                    <input type="text" name="itemname" placeholder="Enter your item name"  required>
+                </div>
+                <div class="qty">
+
+                    <input type="text" name="itemqty" placeholder="Quantity"  required>
+                </div>
+            </section>
+            <section>
+                <div class="Name">
+                    <input type="text" name="myname" placeholder="Enter Your Name" required>
+                </div>
+                <div class="Age">
+                    <input type="number" name="myage" placeholder="Enter Your Age">
+                </div>
+                <div class="Mobileno">
+                    <input type="text" name="mymobileno" placeholder="Enter Your Mobileno" required>
+                </div>
+                <div class="Address">
+                    <input type="text" name="myaddress" placeholder="Enter Your Address" required>
+                </div>
+                <div class="landmark">
+                    <input type="text" name="mylandmark" placeholder="Any Landmark Near You">
+                </div>
+                <div class="Delivery">
+                    <small>Select Delivery Mode</small>
+                    Fast:<input type="radio" name="mylandmark" >
+                    Normal:<input type="radio" name="mylandmark" checked>
+                    <!-- order starts -->
+                </div>
+                <div class="finalorder">
+                <button class="submit">Click To Order</button>
+                </div>
+            </section>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

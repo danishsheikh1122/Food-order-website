@@ -1,0 +1,88 @@
+/* px page ko up down  for padding
+padding-top: 5px;
+% content ko up down for padding
+padding-top: 5%;
+do sometime similar work but different
+margin is also impoetant
+*/
+body {
+    background-image: url(/tandoori.jpg);
+    padding: 20px;
+    padding-bottom:70px;
+
+}
+hr{
+    width: 50%;
+    
+    border-color: black;
+    color: black;
+}
+.menu {
+    background-color: darkgrey;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 50;
+}
+
+.offer {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* starters */
+.starters p {
+    /* Display is used to diaplay in line elements*/
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.Dish {
+    text-align: left;
+    width: 40%;
+    
+}
+
+.Pcs {
+    text-align: center;
+    width: 30%;
+}
+
+.Price {
+    text-align: right;
+    width: 40%;
+}
+
+/* main course */
+.maincourse p {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.mdish {
+    text-align: left;
+    width: 34.5%;
+}
+
+.hsize {
+    text-align: center;
+    width: 15.5%;
+}
+
+.hprice {
+    text-align: right;
+    width: 32%;
+}
+.order{
+padding-left: 45%;
+}

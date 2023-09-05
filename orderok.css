@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+    display:inline-table;
+}
+
+header {
+    text-align: center;
+}
+.itemname{
+    padding: 20px;
+}
+.qty{
+    padding: 20px;
+}
+
+.Name,
+.Age,
+.Mobileno,
+.Address,
+.landmark {
+    padding: 20px;
+}
+.qty{
+    padding-right:10px;
+}
+.Delivery small {
+    font-size: 17px;
+    padding: 20px;
+}
+.finalorder{
+    padding: 20px;
+}
